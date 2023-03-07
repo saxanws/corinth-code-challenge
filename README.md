@@ -22,7 +22,7 @@ url: http://localhost:3000/
 
 ####Search Page
 url: http://localhost:3000/search
-![With result](https://images2.imgbox.com/92/5e/j4TfH97z_o.png "With result")
+![With result](https://images2.imgbox.com/a8/e7/Xcrovb7u_o.png "With result")
 
 ####Detail Page
 url: http://localhost:3000/detail/1
