@@ -1,47 +1,50 @@
+#Welcome to StarWars Search
+###Description
+A simple single page application that a user can go and look starwars characters. 🚀
 
----
+**Table of Contents**
 
-This is LifeWay IT's code challenge given to full stack software engineering candidates! Interested in working with our team? Check out open positions [here](http://tech.lifeway.com/)
+[TOCM]
 
----
-
-### Premise
-
-The premise of this challenge is to create a "profile page" for various star wars characters in the Star Wars universe.
-
-### Specification
-
-Create a simple single page application that provides the following features:
-
-  * A search bar that takes the characters name as input.
-  * A profile containing the following sectional information for the searched character:
-    * About Me (height, weight, hair color, date of birth, species information)
-    * Films Appeared In.
-    * Starships Flown.
-
-Use [SWAPI](https://swapi.dev/) to obtain all the star wars data that you need.
-
-Use whatever languages or tech you want -- we are looking for clean, testable code that demonstrates usage of common design patterns and best practices above all else. 
-
-#### BUT
-
-You will get bonus points if...
-
-* A decent understanding of React is demonstrated
-* A decent understanding of Next.js is demonstrated
-* A decent understanding of unit/integration testing is demonstrated
-* A basic "gateway" api is created to consolidate and proxy calls to SWAPI
-* You add cool and creative features not included in the spec
-
----
-
-### Submissions
-
-Please put your submission in a public github repository to share.
-
----
+[TOC]
 
 
-<div class="footer">
-  <img src="https://commerce-notification-service-uat.s3.amazonaws.com/emails/Lifewaylogo__RGB_gray_flat.png" alt="Lifeway Christian Resources" width="150" style="padding: 1rem;">
-</div>
+
+### Features
+- A Home page that show 4 random characters from starwars. Everytime you refresh it changes.
+- A search page that you can look up for different charaters.
+- A detail page that you can see detail about a specific character using the id
+- Nice Graphic way of seeing the details info and the card.
+
+###Technology used
+- **Front-End**: React, HTML, Scss
+- **Back-End**: ExpressJs, TypeScript, Hosted on Elastic beanstalk (AWS). 
+*Backend repository code*: https://github.com/saxanws/star-wars-backend/tree/master
+Backend live: http://starwarsbackend-env.eba-7fbrbps9.us-east-2.elasticbeanstalk.com/starwars/people
+
+##Screens
+####Home Page
+url: http://localhost:3000/
+![Home Page](https://images2.imgbox.com/49/cc/Az25WITU_o.png "Home Page")
+
+####Search Page
+url: http://localhost:3000/search
+![Search No result](https://images2.imgbox.com/d2/65/GgmIfIb1_o.png "Search No result")
+
+![Search with result](https://images2.imgbox.com/92/5e/j4TfH97z_o.png "Search with result")
+
+####Detail Page
+url: http://localhost:3000/detail/1
+![Detail page](https://images2.imgbox.com/f6/9c/kxcGF672_o.png "Detail page")
+
+##Instalation
+- Clone this repository
+- Run:
+###`npm install`
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+####Facts
+- Although there are a lot of library that I normally use for UI Like `Material-ui`, `React Boostrap`, `TailWind`, `Semantic UI`, I decided to scss to have a better control of the ui and practicing.
