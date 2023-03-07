@@ -2,13 +2,6 @@
 ###Description
 A simple single page application that a user can go and look starwars characters. 🚀
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-
 
 ### Features
 - A Home page that show 4 random characters from starwars. Everytime you refresh it changes.
@@ -29,9 +22,7 @@ url: http://localhost:3000/
 
 ####Search Page
 url: http://localhost:3000/search
-![Search No result](https://images2.imgbox.com/d2/65/GgmIfIb1_o.png "Search No result")
-
-![Search with result](https://images2.imgbox.com/92/5e/j4TfH97z_o.png "Search with result")
+![With result](https://images2.imgbox.com/92/5e/j4TfH97z_o.png "With result")
 
 ####Detail Page
 url: http://localhost:3000/detail/1
@@ -47,4 +38,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ####Facts
-- Although there are a lot of library that I normally use for UI Like `Material-ui`, `React Boostrap`, `TailWind`, and `Semantic UI`, I decided to scss to have a better control of the ui and practicing.
+- Although there are a lot of library that I normally use for UI Like `Material-ui`, `React Boostrap`, `TailWind`, `Semantic UI`, I decided to scss to have a better control of the ui and practicing.
