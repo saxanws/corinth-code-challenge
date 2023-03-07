@@ -11,9 +11,9 @@ A simple single page application that a user can go and look starwars characters
 
 ###Technology used
 - **Front-End**: React, HTML, Scss
-- **Back-End**: ExpressJs, TypeScript, Hosted on Elastic beanstalk (AWS). 
+- **Back-End**: ExpressJs, TypeScript, Hosted on Elastic beanstalk (AWS). <br />
 *Backend repository code*: https://github.com/saxanws/star-wars-backend/tree/master
-Backend live: http://starwarsbackend-env.eba-7fbrbps9.us-east-2.elasticbeanstalk.com/starwars/people
+<br /> Backend live: http://starwarsbackend-env.eba-7fbrbps9.us-east-2.elasticbeanstalk.com/starwars/people
 
 ##Screens
 ####Home Page
