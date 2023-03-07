@@ -31,8 +31,8 @@ url: http://localhost:3000/detail/1
 ## Instalation
 - Clone this repository
 - Run:
-### `npm install`
-### `npm start`
+#### `npm install`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
