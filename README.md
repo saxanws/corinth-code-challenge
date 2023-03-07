@@ -16,8 +16,8 @@ Create a simple single page application that provides the following features:
   * A search bar that takes the characters name as input.
   * A profile containing the following sectional information for the searched character:
     * About Me (height, weight, hair color, date of birth, species information)
-    * Films Appeared In
-    * Starships Flown
+    * Films Appeared In.
+    * Starships Flown.
 
 Use [SWAPI](https://swapi.dev/) to obtain all the star wars data that you need.
 
