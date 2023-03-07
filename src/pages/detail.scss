@@ -1,0 +1,24 @@
+@use "../scss/" as *;
+
+.detail-page-wrap {
+    background-image: url('../assets/background/3.jpeg');
+    // background-color: yellow;
+    height: 100%;
+    width: 100%;
+
+    .detail-page-cover {
+        height: 100%;
+        width: 100%;
+        background-color: $overlay-bg-1;
+
+        .detail-page-content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+           
+        }
+    }
+}

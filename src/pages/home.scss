@@ -1,0 +1,87 @@
+@use "../scss/" as *;
+
+.home-page-wrap {
+    background-image: url('../assets/background/1.jpeg');
+    // background-color: yellow;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    .home-page-cover {
+        height: 100%;
+        width: 100%;
+        background-color: $overlay-bg-1;
+        overflow: scroll;
+
+        .home-page-content {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            margin: auto;
+
+            .home-header-section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 50px;
+                h1 {
+                    color: white;
+                    margin-top: 0px;
+                    margin-bottom: 5px;
+                    padding: 1%;
+                    padding-bottom: 5px;
+                    text-align: center;
+                    font-size: 50px;
+                }
+
+                img {
+                    width: 120px;
+                    height: 35px;
+                }
+            }
+
+            .middle-content {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .card-list-featured {
+                    display: flex;
+                    justify-content: center;
+                        flex-wrap: wrap;
+                        row-gap: 50px;
+                        column-gap: 50px;
+                }
+
+            }
+
+
+            .btn-wrap {
+                display: flex;
+                justify-content: center;
+                margin-top: 5%;
+
+                :hover {
+                    font-size: larger;
+                    color: white;
+                    cursor: pointer;
+                }
+
+                .btn-search {
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    background-color: $search-button-color;
+                    height: 84px;
+                    width: 353px;
+                    font-weight: bold;
+                    border-radius: $search-btn-radius;
+                }
+            }
+
+        }
+
+    }
+}

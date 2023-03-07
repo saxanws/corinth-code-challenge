@@ -1,0 +1,98 @@
+@use "../../scss/" as *;
+
+.profile-card-wrapper {
+    width: $profile-card-width;
+    height: $profile-card-height;
+    border-radius: $profile-card-radius;
+
+    background-color: #FFFFFF;
+
+    .profile-card-image {
+        // height: 235px;
+        width: 210px;
+        height: 35%;
+        margin-top: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile-card-info {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2px;
+        h5 {
+            font-size: 12px;
+            margin-top: 8px;
+            color: $text-secondary-color-1;
+            font-weight: bolder;
+        }
+        h4 {
+            margin-bottom: 5px;
+        }
+
+        .profile-card-subtitle {
+            font-size: 15px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        .about-section {
+            .about-section-title {
+                display: flex;
+                flex-direction: row;
+                hr {
+                    width: 120px;
+                    margin-left: 15px;
+                }
+            }
+
+            .about-section-info {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+
+                .info-icon {
+                    img {
+                        height: 19px;
+                        width: 19px;
+                        margin-bottom: 5px;
+                    }
+                    div {
+                        color: $text-secondary-color-1;
+                        font-weight: bold;
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+        }
+
+        .btn-info {
+            display: flex;
+            justify-content: center;
+            margin-top: 35px;
+            font-weight: bold;
+
+            :hover {
+                font-size: larger;
+                color: white;
+                cursor: pointer;
+            }
+            .more-info-btn {
+                background-color: $button-secondary-color;
+                padding: 5px;
+                display: flex;
+                justify-content: space-around;
+                width: 50%;
+                border-radius: 20px;
+                align-items: center;
+            }
+        }
+    }
+
+}

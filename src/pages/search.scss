@@ -1,0 +1,81 @@
+@use "../scss/" as *;
+
+.search-page-wrap {
+    background-image: url('../assets/background/2.jpeg');
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+
+    .search-page-cover {
+        height: 100%;
+        width: 100%;
+        background-color: $overlay-bg-2;
+        overflow: scroll;
+
+        .search-page-content {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            
+            .search-header {
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 10px;
+                .search-header-title {
+                    color: white;
+                    font-size: 200%;
+                    font-weight: bold;
+                    text-align: center;
+                }
+
+                .input-form {
+                    width: 80%;
+                    height: 40px;
+                    margin: auto;
+                    border-radius: 20px;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+
+                    input {
+                        border: 0px;
+                        width: 95%;
+                        height: 90%;
+                        border-radius: inherit;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .result-content {
+                display: flex;
+                flex-direction: column;
+
+                .result-qty {
+                    text-align: left;
+                    color: white;
+                    font-size: larger;
+                    font-weight: bold;
+                    margin-bottom: 2.5%;
+                    margin-top: 2.5%;
+
+                }
+
+                .result-list {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    row-gap: 50px;
+                    column-gap: 50px;
+                }
+            }
+        }
+    }
+}
