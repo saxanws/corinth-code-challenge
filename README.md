@@ -47,4 +47,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ####Facts
-- Although there are a lot of library that I normally use for UI Like `Material-ui`, `React Boostrap`, `TailWind`, `Semantic UI`, I decided to scss to have a better control of the ui and practicing.
+- Although there are a lot of library that I normally use for UI Like `Material-ui`, `React Boostrap`, `TailWind`, and `Semantic UI`, I decided to scss to have a better control of the ui and practicing.
